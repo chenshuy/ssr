@@ -1,0 +1,27 @@
+{
+  "name": "koa2-ssr",
+  "version": "1.0.0",
+  "description": "koa2 ssr",
+  "author": "chenshuy <243211565@qq.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon build/www",
+    "start": "node build/www"
+  },
+  "dependencies": {
+    "art-template": "^4.13.1",
+    "axios": "^0.18.0",
+    "koa": "^2.5.2",
+    "koa-art-template": "^1.1.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "koa-logger": "^3.2.0",
+    "nodemon": "^1.18.4"
+  },
+  "engines": {
+    "node": ">= 7.6.0"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{include './base/meta'}}
+  <title>{{title}}</title>
+</head>
+<body>
+  {{include './base/header'}}
+
+  <div class="index-wrap">
+    <h1>我是首页</h1>
+    <div class="layout">
+      <p>hello world</p>
+      <p>{{content}}</p>
+    </div>
+    <ul class="list-img">
+        {{each banner.data.area_privilege}}
+        <li style="margin-top: 20px;">
+          <img src="http://192.168.5.93:5012{{$value.img_url}}" alt="">
+        </li>
+        {{/each}}
+    </ul>
+  </div>
+  <img src="static/img/banner.jpg" alt="">
+
+  {{include './base/footer'}}
+  <script>
+    console.log(10);
+  </script>
+</body>
+</html>
