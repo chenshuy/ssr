@@ -29,5 +29,3 @@ node dist/app.js
 1. 模版引擎 [art-template](https://aui.github.io/art-template/zh-cn/docs/syntax.html).
 2. koa路由 [koa-router](https://github.com/alexmingoia/koa-router).
 3. node端数据请求 [axios](https://github.com/axios/axios).
-
-

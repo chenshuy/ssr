@@ -5,7 +5,7 @@
   "author": "chenshuy <243211565@qq.com>",
   "private": true,
   "scripts": {
-    "dev": "nodemon build/www",
+    "dev": "gulp server",
     "start": "node build/www"
   },
   "dependencies": {
@@ -18,6 +18,9 @@
     "koa-static": "^5.0.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.4.1",
     "koa-logger": "^3.2.0",
     "nodemon": "^1.18.4"
   },
